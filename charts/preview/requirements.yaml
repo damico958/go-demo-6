@@ -12,7 +12,7 @@ dependencies:
 - name: mongodb
   alias: preview-db
   version: 5.3.0
-  repository:  https://kubernetes-charts.storage.googleapis.com
+  repository:  https://charts.helm.sh/stable
 
   # !! "alias: preview" must be last entry in dependencies array !!
   # !! Place custom dependencies above !!
